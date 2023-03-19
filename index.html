@@ -26,15 +26,15 @@
                     <p class="text-xl mb-3">Area(A) = 0.5 * h * b</p>
                     <div class="flex gap-1 mb-4">
                        <div class="flex gap-2">
-                            <input type="text" class="w-9/12 border-stone-900 border-2 rounded-lg px-1" name="" id="" placeholder="h">
+                            <input type="text" class="w-9/12 border-stone-900 border-2 rounded-lg px-1" name="" id="height" placeholder="h">
                             <p class="">cm</p>
                        </div>
                         <div class="flex gap-2">
-                            <input type="text" name="" id="" class="w-9/12 border-stone-900 border-2 rounded-lg px-1" placeholder="b">
+                            <input type="text" name="" id="base" class="w-9/12 border-stone-900 border-2 rounded-lg px-1" placeholder="b">
                             <p class="">cm</p>
                         </div>
                     </div>
-                    <button class="bg-blue-400 hover:bg-sky-600 hover:bg-sky-700 py-3 px-7 rounded-md">Calculate</button>
+                    <button id="triangle-button" class="bg-blue-400 hover:bg-sky-600  py-3 px-7 rounded-md">Calculate</button>
                 </div>
                 <div class="border-2 rounded-xl p-4 border-gray-600">
                     <img class="mx-auto mb-2" src="images/rectangle.png" alt="">
@@ -42,18 +42,18 @@
                     <p class="text-xl mb-3">Area(A) = w * l</p>
                     <div class="flex gap-1 mb-4">
                        <div class="flex gap-2">
-                            <input type="text" class="w-9/12 border-stone-900 border-2 rounded-lg px-1" name="" id="" placeholder="w">
+                            <input type="text" class="w-9/12 border-stone-900 border-2 rounded-lg px-1" name="" id="width" placeholder="w">
                             <p class="">cm</p>
                        </div>
                         <div class="flex gap-2">
-                            <input type="text" name="" id="" class="w-9/12 border-stone-900 border-2 rounded-lg px-1" placeholder="l">
+                            <input type="text" name="" id="length" class="w-9/12 border-stone-900 border-2 rounded-lg px-1" placeholder="l">
                             <p class="">cm</p>
                         </div>
                     </div>
-                    <button class="bg-blue-400 hover:bg-sky-600 hover:bg-sky-700 py-3 px-7 rounded-md">Calculate</button>
+                    <button id="rectangle-button" class="bg-blue-400 hover:bg-sky-600  py-3 px-7 rounded-md">Calculate</button>
                 </div>
                 <div class="border-2 rounded-xl p-4 border-gray-600">
-                    <img class="mx-auto mb-2" src="images/parallelogram.png" alt="">
+                    <img class="mx-auto mt-5 mb-2" src="images/parallelogram.png" alt="">
                     <h1 class="text-3xl font-semibold">Parallelogram</h1>
                     <p class="text-xl mb-3">Area(A) = b * h</p>
                     <div class="flex gap-1 mb-4">
@@ -66,9 +66,9 @@
                             <p class="">cm</p>
                         </div>
                     </div>
-                    <button class="bg-blue-400 hover:bg-sky-600 hover:bg-sky-700 py-3 px-7 rounded-md">Calculate</button>
+                    <button class="bg-blue-400 hover:bg-sky-600  py-3 px-7 rounded-md">Calculate</button>
                 </div>
-                <div class="border-black border-2 row-span-2 rounded-xl">
+                <div id="calculation-area" class="border-black border-2 p-1 rounded-xl">
                     <h1 class="underline text-3xl font-bolder">Area Calculation</h1>
                 </div>
             </div>
@@ -87,7 +87,7 @@
                             <p class="">cm</p>
                         </div>
                     </div>
-                    <button class="bg-blue-400 hover:bg-sky-600 hover:bg-sky-700 py-3 px-7 rounded-md">Calculate</button>
+                    <button class="bg-blue-400 hover:bg-sky-600  py-3 px-7 rounded-md">Calculate</button>
                 </div>
                 <div class="border-2 rounded-xl p-4 border-gray-600">
                     <img class="mx-auto mb-2" src="images/pentagon.png" alt="">
@@ -103,7 +103,7 @@
                             <p class="">cm</p>
                         </div>
                     </div>
-                    <button class="bg-blue-400 hover:bg-sky-600 hover:bg-sky-700 py-3 px-7 rounded-md">Calculate</button>
+                    <button class="bg-blue-400 hover:bg-sky-600  py-3 px-7 rounded-md">Calculate</button>
                 </div>
                 <div class="border-2 rounded-xl p-4 border-gray-600">
                     <img class="mx-auto mb-2" src="images/ellipse.png" alt="">
@@ -119,7 +119,7 @@
                             <p class="">cm</p>
                         </div>
                     </div>
-                    <button class="bg-blue-400 hover:bg-sky-600 hover:bg-sky-700 py-3 px-7 rounded-md">Calculate</button>
+                    <button class="bg-blue-400 hover:bg-sky-600  py-3 px-7 rounded-md">Calculate</button>
                 </div>
             </div>
         </section>
