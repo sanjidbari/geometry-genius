@@ -47,13 +47,13 @@ document.getElementById('rectangle-button').addEventListener('click', function()
 // parallelogram area
 
 document.getElementById('parallelogram-button').addEventListener('click', function(){
-    const height = document.getElementById('height').value;
+    const height = document.getElementById('height-para').value;
     const base = document.getElementById('base-para').value;
     const area = base * height;
     if(isNaN(area) == true || area <= 0){  
         alert('Please type positive numbers only');
         document.getElementById('base-para').value = '';
-        document.getElementById('height').value = '';
+        document.getElementById('height-para').value = '';
     }
     else {
         const display = document.getElementById('calculation-area');
