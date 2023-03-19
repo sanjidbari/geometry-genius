@@ -1,3 +1,9 @@
+document.getElementById('blog').addEventListener('click', function(){
+    window.location.href = "blog.html";
+})
+
+// triangle area
+
 document.getElementById('triangle-button').addEventListener('click', function(){
     const base = document.getElementById('base').value;
     const height = document.getElementById('height').value;

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main>
+        <section class="text-center p-10 m-10">
+            <div class="mb-20">
+                <h1 class="text-5xl font-bold">What is DOM and what is the purpose of DOM?</h1>
+                <p class="bg-sky-200 m-4 p-6 rounded-md text-3xl font-medium">DOM stands for Document Object Model in web development. It is a programming interface for web pages that enables the dynamic manipulation and updating of a web page's content and structure.The DOM, to put it simply, is a structure that resembles a tree and represents the elements and content of a web page. The DOM tree's nodes represent each element on the page, including headings, paragraphs, images, and buttons.The DOM's goal is to make it possible for programmers to make dynamic, interactive web pages. Developers may alter the look, behavior, and content of a web page in response to user activities by gaining access to and modifying the components and content of the page through the DOM.</p>
+            </div>
+            <div class="mb-20">
+                <h1 class="text-5xl font-bold">How will you select HTML elements using DOM? Name the DOM methods.</h1>
+                <p class="bg-amber-200 m-4 p-6 rounded-md text-3xl font-medium">To select HTML elements using DOM, there are several methods available that allow you to access and manipulate elements in different ways. Here are some of the most commonly used DOM methods for selecting HTML elements:
+                    <br>
+                    getElementById(): This method allows you to select an element with a specific id attribute.
+                    Example: var element = document.getElementById("myElement");
+                    <br>
+                    getElementsByClassName(): This method allows you to select elements with a specific class name.
+                    Example: var elements = document.getElementsByClassName("myClass");
+                    <br>
+                    getElementsByTagName(): This method allows you to select elements by their tag name.
+                    Example: var elements = document.getElementsByTagName("p");
+                    <br>
+                    querySelector(): This method allows you to select the first matching element using a CSS selector.
+                    Example: var element = document.querySelector("#myElement .myClass");
+                    <br>
+                    querySelectorAll(): This method allows you to select all matching elements using a CSS selector.
+                    Example: var elements = document.querySelectorAll("p.myClass");</p>
+            </div>
+            <div class="mb-20">
+                <h1 class="text-5xl font-bold">What is event bubble?</h1>
+                <p class="bg-green-200 m-4 p-6 rounded-md text-3xl font-medium">The Document Object Model (DOM) uses a concept called event bubbling to describe how events spread throughout the DOM tree hierarchy. An event, such as a mouse click or keypress, first triggers on an element before "bubble-up" across its parent elements until it reaches the document's root. This means that if an event happens on an inner element, like as a button inside a div, it will first be triggered on the button before bubbling up through the div, the body, the document object, and eventually the window object.</p>
+            </div>
+            <div class="mb-20">
+                <h1 class="text-5xl font-bold">What is a callback function and why will you use it?</h1>
+                <p class="bg-gray-200 m-4 p-6 rounded-md text-3xl font-medium">A callback function in programming is a function that is performed inside another function after being supplied as an input to that function. Using a callback function serves the primary aim of allowing the calling code to continue running while the callback function completes a particular operation and then returns a result to the calling function. In asynchronous programming, when some processes, such data retrieval or API queries, may take longer to finish, callback functions are frequently utilized. A callback function is used to process the returned result rather than stopping programme execution while waiting for these activities to finish.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
