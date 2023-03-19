@@ -48,11 +48,11 @@ document.getElementById('rectangle-button').addEventListener('click', function()
 
 document.getElementById('parallelogram-button').addEventListener('click', function(){
     const height = document.getElementById('height').value;
-    const base = document.getElementById('base').value;
+    const base = document.getElementById('base-para').value;
     const area = base * height;
     if(isNaN(area) == true || area <= 0){  
         alert('Please type positive numbers only');
-        document.getElementById('base').value = '';
+        document.getElementById('base-para').value = '';
         document.getElementById('height').value = '';
     }
     else {
